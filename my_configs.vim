@@ -1,7 +1,9 @@
 call plug#begin('~/.config/nvim/plug')
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
+Plug 'tpope/vim-surround'
+Plug 'easymotion/vim-easymotion'
+Plug 'godlygeek/tabular'
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
