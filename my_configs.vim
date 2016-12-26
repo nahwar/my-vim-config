@@ -4,6 +4,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
 Plug 'godlygeek/tabular'
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'tpope/vim-dispatch'
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
@@ -27,3 +29,6 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 map <Leader>a :Tabularize /
+
+let g:python_host_prog = '/usr/bin/python'
+let g:python3_host_prog = '/usr/bin/python3'
